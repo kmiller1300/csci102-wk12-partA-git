@@ -27,5 +27,12 @@ def ScoreFinder(players, scores, s):
     if s in players:
         i=players.index(s)
         print(s,"got a score of",scores[i])
+
+def Union(list1, list2):
+    for i in list1:
+        finalList.append(i)
+    for j in list2:
+        finalList.append(i)
+    print(finalList)
         
             
