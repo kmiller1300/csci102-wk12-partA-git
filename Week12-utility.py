@@ -42,5 +42,12 @@ def Intersection(list1, list2):
         if i in list2:
             newList.append(i)
     print(newList)
+
+def NotIn(list2, list2):
+    newList=[]
+    for i in list1:
+        if i not in list2:
+            newList.append(i)
+    print(newList)
         
             
