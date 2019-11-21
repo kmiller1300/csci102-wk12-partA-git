@@ -10,13 +10,9 @@ def LoadFile(name):
     return lines
 print('\n')
 def UpdateString(s1, s2, n):
-    newstring=''
-    i=0
-    for s1[i] in s1:
-        if i==n:
-            newstring[i]=s2[i]
-        elif i!=n:
-            newstring[i]=s1[i]
+    newstring=s1[0:n]+s2+s1[ngit+1: len(s1)]
+    
+    
     return newstring
 
         
