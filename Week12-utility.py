@@ -14,5 +14,9 @@ def UpdateString(s1, s2, n):
     
     
     return newstring
-
-        
+def FindWordCount(l, s):
+    count=0
+    for i in l:
+        if i==s:
+            count+=1
+    return count
