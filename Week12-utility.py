@@ -29,10 +29,18 @@ def ScoreFinder(players, scores, s):
         print(s,"got a score of",scores[i])
 
 def Union(list1, list2):
+    finalList=[]
     for i in list1:
         finalList.append(i)
     for j in list2:
         finalList.append(i)
     print(finalList)
+
+def Intersection(list1, list2):
+    newList=[]
+    for i in list1:
+        if i in list2:
+            newList.append(i)
+    print(newList)
         
             
